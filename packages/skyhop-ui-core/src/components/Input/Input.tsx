@@ -9,7 +9,8 @@ export interface SkyHopTextFieldProps {
     helperText?: string,
     fullWidth?: boolean,
     variant?: TextFieldVariants,
-    defaultValue?: string
+    defaultValue?: string,
+    id?: string
 }
 const SkyhopTextField = ({variant = "outlined", ...props}: SkyHopTextFieldProps) => {
     return(
