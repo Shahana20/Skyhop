@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": ["apps/**/src/**/*", "packages/**/src/**/*"],
+  "compilerOptions": {
+    "paths": {
+      "@skyhop/ui-core": ["./packages/ui-core/src/index.ts"]
+    }
+  }
+}

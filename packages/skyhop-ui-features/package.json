@@ -1,0 +1,39 @@
+{
+  "name": "@skyhop/ui-features",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "ladle": "ladle serve",
+    "build-ladle": "ladle build"
+  },
+  "peerDependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.3",
+    "@skyhop/ui-core": "*",
+    "@types/react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@ladle/react": "5.1.1",
+    "@storybook/addon-links": "^8.0.0",
+    "@storybook/react-webpack5": "^8.0.0",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/react": "19.2.14",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "storybook": "^8.0.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

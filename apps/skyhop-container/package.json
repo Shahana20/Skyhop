@@ -1,0 +1,19 @@
+{
+  "name": "skyhop-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development"
+  },
+  "dependencies": {
+    "@skyhop/ui-core": "*",
+    "@skyhop/ui-features": "*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": true
+}
