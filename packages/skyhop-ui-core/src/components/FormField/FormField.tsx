@@ -1,14 +1,16 @@
 import { FormControl, Stack } from "@mui/material";
 import SkyhopTextField from "../Input/Input";
 import SkyhopTypography from "../Typography/Typography";
+import { ChangeEvent } from "react";
 
 export interface SkyhopFormFieldProps {
     id: string,
     label: string,
     placeholder?: string,
-    onChange?: () => void,
+    onChange?: (event: ChangeEvent<HTMLInputElement>) => void,
     error?: boolean,
-    helperText?: string
+    helperText?: string,
+    value: string
 }
 
 const SkyhopFormField = ({ id, label, placeholder, ...rest }: SkyhopFormFieldProps) => {
